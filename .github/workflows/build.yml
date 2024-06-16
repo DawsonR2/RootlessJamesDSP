@@ -22,7 +22,7 @@ jobs:
 
     strategy:
       matrix:
-        flavor: [Rootless, Root]
+        flavor: [Rootless]
         
     steps:
       - id: flavor
